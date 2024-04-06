@@ -1,0 +1,102 @@
+.card-component{
+    background-color: rgb(47, 68, 89);
+    color:white;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20rem;
+    border-radius: 5px;
+    height: 25rem;
+}
+h1{
+    text-align: center;
+}
+.input-container{
+    margin-top: 2.5rem;
+}
+.span-container{
+    position: relative;
+    top:20px;
+    width:fit-content
+}
+input {
+    width: 100%;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    &:focus{
+        outline: none;
+    }
+}
+span{
+    font-weight: 600;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    display: inline-block;
+    letter-spacing: 1px;
+}
+.d1{
+    transition-delay: 0ms;
+}
+.d2{
+    transition-delay: 50ms;
+}
+.d3{
+    transition-delay: 100ms;
+}
+.d4{
+    transition-delay: 150ms;
+}
+.d5{
+    transition-delay: 200ms;
+}
+.d6{
+    transition-delay:  250ms;
+}
+.d7{
+    transition-delay:  300ms;
+}
+.d8{
+    transition-delay:  350ms;
+}
+.active{
+    transform: translateY(-30px);
+    color:rgb(180, 218, 255);
+}
+
+.hr-active{
+    border-color:rgb(180, 218, 255);
+}
+
+button{
+    background-color: rgb(180, 218, 255);
+    font-size: 1rem;
+    width: 100%;
+    padding: 18px;
+    margin-top: 2rem;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button:active{
+    width: 98%;
+    padding: 16px;
+    margin: 34px 0 2px 0;
+}
+
+.message{
+    display: flex;
+    margin-top: 2rem;
+}
+.message div{
+    margin-right: 10px;
+}
+.message a{
+    color:rgb(180, 218, 255);
+    text-decoration: none;
+}
+
+
